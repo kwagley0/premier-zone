@@ -1,8 +1,8 @@
-FROM eclipse-temurin:21-jdk AS build
+FROM maven:3.9.4-eclipse-temurin-21-alpine AS build
 COPY . .
 RUN mvn clean package -DskipTests
 
-FROM openjdk:21-jdk-slim
-COPY --from=build /target/PremierZone-0.0.1-SNAPSHOT.jar PremierZone.jar
+FROM eclipse-temurin:21.0.4_7-jdk
+COPY /target/*.jar app.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","PremierZone.jar"]
+ENTRYPOINT ["java","-jar","app.jar"]
