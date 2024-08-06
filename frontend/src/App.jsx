@@ -20,7 +20,9 @@ const App = () => {
 
   const fetchPlayers = async () => {
     try {
-      const response = await axios.get("http://localhost:8080/api/v1/player");
+      const response = await axios.get(
+        "https://premier-zone.onrender.com/api/v1/player"
+      );
       setPlayers(response.data);
       console.log(players);
     } catch (error) {

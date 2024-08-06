@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173"})
 @RequestMapping(path = "api/v1/player")
 public class PlayerController {
     private final PlayerService playerService;
