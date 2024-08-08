@@ -4,7 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+import org.springframework.scheduling.annotation.Scheduled;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 @RestController
@@ -60,5 +62,18 @@ public class PlayerController {
     public ResponseEntity<String> deletePlayer(@PathVariable String playerName) {
         playerService.deletePlayer(playerName);
         return new ResponseEntity<>("Player deleted successfully", HttpStatus.OK);
+    }
+
+    @GetMapping("/ping")
+    public ResponseEntity<String> ping() {
+        return new ResponseEntity<>("pong", HttpStatus.OK);
+    }
+
+    @Scheduled(fixedRate = 660000) // 11 minutes in milliseconds
+    public void logPing() {
+        LocalDateTime now = LocalDateTime.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        String formattedDateTime = now.format(formatter);
+        System.out.println("Ping endpoint is active at " + formattedDateTime);
     }
 }
