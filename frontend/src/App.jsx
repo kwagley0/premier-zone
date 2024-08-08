@@ -22,7 +22,6 @@ const App = () => {
     try {
       const response = await axios.get("https://premier-zone.onrender.com/api/v1/player");
       setPlayers(response.data);
-      console.log(players);
     } catch (error) {
       console.error(error);
     }
