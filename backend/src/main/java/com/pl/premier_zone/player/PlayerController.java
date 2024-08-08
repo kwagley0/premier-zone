@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("https://premier-zone.vercel.app")
+@CrossOrigin("https://premier-zone.vercel.app/:1")
 @RequestMapping(path = "api/v1/player")
 public class PlayerController {
     private final PlayerService playerService;
