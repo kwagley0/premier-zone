@@ -18,14 +18,22 @@ const App = () => {
     fetchPlayers();
   }, []);
 
-  const fetchPlayers = async () => {
-    try {
-      const response = await axios.get("https://premier-zone.onrender.com/api/v1/player");
-      setPlayers(response.data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
+const fetchPlayers = async () => {
+  try {
+    const response = await axios.get(
+      "https://premier-zone.onrender.com/api/v1/player",
+      {
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+      }
+    );
+    setPlayers(response.data);
+  } catch (error) {
+    console.error(error);
+  }
+};
 
   useEffect(() => {
     console.log(players);
