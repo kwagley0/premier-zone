@@ -16,7 +16,8 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://premier-zone.vercel.app/")
+                         .allowedOrigins("https://premier-zone.vercel.app",
+                                        "https://premier-zone-git-main-krishs-projects-5fa9c7ce.vercel.app")
                         .allowedMethods(HttpMethod.GET.name())
                         .allowedHeaders(HttpHeaders.CONTENT_TYPE,
                                 HttpHeaders.AUTHORIZATION);
