@@ -20,7 +20,14 @@ const App = () => {
 
   const fetchPlayers = async () => {
     try {
-      const response = await axios.get("https://premier-zone.onrender.com/api/v1/player");
+      const response = await axios.get(
+        "https://premier-zone.onrender.com/api/v1/player",
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
       setPlayers(response.data);
     } catch (error) {
       console.error(error);
