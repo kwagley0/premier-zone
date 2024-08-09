@@ -38,15 +38,20 @@ const TeamData = () => {
         setLoading(false);
       });
     } else if (positionValue){
-      axios.get(`/api/v1/player?position=${encodeURIComponent(positionValue)}`)
-      .then(response => {
-        setPlayerData(response.data);
-        setLoading(false);
-      })
-      .catch(error => {
-        setError(error);
-        setLoading(false);
-      });
+      axios
+        .get(
+          `https://premier-zone.onrender.com/api/v1/player?position=${encodeURIComponent(
+            positionValue
+          )}`
+        )
+        .then((response) => {
+          setPlayerData(response.data);
+          setLoading(false);
+        })
+        .catch((error) => {
+          setError(error);
+          setLoading(false);
+        });
     } else if (nameValue){
       axios.get(`/api/v1/player?name=${encodeURIComponent(nameValue)}`)
       .then(response => {
