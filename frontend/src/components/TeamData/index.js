@@ -18,6 +18,7 @@ const TeamData = () => {
     const nameValue = params.get('name');
     
     if (teamValue) {
+      console.log(teamValue);
       axios.get(`/api/v1/player?team=${encodeURIComponent(teamValue)}`)
         .then(response => {
           setPlayerData(response.data);
@@ -28,6 +29,7 @@ const TeamData = () => {
           setLoading(false);
         });
     } else if (nationValue){
+      console.log(nationValue);
       axios.get(`/api/v1/player?nation=${encodeURIComponent(nationValue)}`)
       .then(response => {
         setPlayerData(response.data);
@@ -38,20 +40,15 @@ const TeamData = () => {
         setLoading(false);
       });
     } else if (positionValue){
-      axios
-        .get(
-          `https://premier-zone.onrender.com/api/v1/player?position=${encodeURIComponent(
-            positionValue
-          )}`
-        )
-        .then((response) => {
-          setPlayerData(response.data);
-          setLoading(false);
-        })
-        .catch((error) => {
-          setError(error);
-          setLoading(false);
-        });
+      axios.get(`/api/v1/player?position=${encodeURIComponent(positionValue)}`)
+      .then(response => {
+        setPlayerData(response.data);
+        setLoading(false);
+      })
+      .catch(error => {
+        setError(error);
+        setLoading(false);
+      });
     } else if (nameValue){
       axios.get(`/api/v1/player?name=${encodeURIComponent(nameValue)}`)
       .then(response => {
