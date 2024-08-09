@@ -21,7 +21,7 @@ const TeamData = () => {
       console.log(teamValue);
       axios
         .get(
-          `https://premier-zone.onrender.com/api/v1/player?team=${encodeURIComponent(
+          `/api/v1/player?team=${encodeURIComponent(
             teamValue
           )}`
         )
@@ -37,7 +37,7 @@ const TeamData = () => {
       console.log(nationValue);
       axios
         .get(
-          `https://premier-zone.onrender.com/api/v1/player?nation=${encodeURIComponent(
+          `/api/v1/player?nation=${encodeURIComponent(
             nationValue
           )}`
         )
@@ -52,7 +52,7 @@ const TeamData = () => {
     } else if (positionValue){
       axios
         .get(
-          `https://premier-zone.onrender.com/api/v1/player?position=${encodeURIComponent(
+          `/api/v1/player?position=${encodeURIComponent(
             positionValue
           )}`
         )
@@ -67,7 +67,7 @@ const TeamData = () => {
     } else if (nameValue){
       axios
         .get(
-          `https://premier-zone.onrender.com/api/v1/player?name=${encodeURIComponent(
+          `/api/v1/player?name=${encodeURIComponent(
             nameValue
           )}`
         )
