@@ -5,13 +5,156 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fec08a57-b604-412c-b67c-06b423444524" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/pl/premier_zone/CorsConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/pl/premier_zone/player/PlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/pl/premier_zone/player/PlayerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/pl/premier_zone/CorsConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/pl/premier_zone/CorsConfig.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/target/classes/com/pl/premier_zone/player/PlayerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/pl/premier_zone/player/PlayerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-common-types/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-common-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-common-types/attribution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-common-types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-common-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-svg-core/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-svg-core/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-svg-core/attribution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-svg-core/import.macro.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-svg-core/import.macro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-svg-core/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-svg-core/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-svg-core/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-svg-core/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-svg-core/plugins.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/fontawesome-svg-core/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/free-brands-svg-icons/faBars.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/free-brands-svg-icons/faBars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/free-brands-svg-icons/faClose.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/free-brands-svg-icons/faClose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/free-brands-svg-icons/faFlag.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/free-brands-svg-icons/faFlag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/free-brands-svg-icons/faHome.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/free-brands-svg-icons/faHome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/free-brands-svg-icons/faTShirt.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/free-brands-svg-icons/faTShirt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/free-brands-svg-icons/faUsers.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/free-brands-svg-icons/faUsers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/react-fontawesome/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/react-fontawesome/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/react-fontawesome/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/react-fontawesome/index.es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/react-fontawesome/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/@fortawesome/react-fontawesome/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/Red_Hat_Display/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/Red_Hat_Display/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/positions/Defender.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/positions/Forward.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/positions/Goalie.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/positions/Midfielder.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/static/css/main.04238dd0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/static/css/main.04238dd0.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/static/js/787.1b7283c0.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/static/js/787.1b7283c0.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/static/js/main.7740fe45.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/static/js/main.7740fe45.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/static/js/main.7740fe45.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/static/media/PL.bd6dbd051a4638bc328e.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/static/media/RedHatDisplay-VariableFont_wght.efce1fc0edae25633558.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/static/media/sub-logo.faa74e49889b3b75d869.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/Arsenal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/AstonVilla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/Bournemouth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/Brentford.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/Brighton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/Chelsea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/CrystalPalace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/Everton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/Fulham.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/LeedsUnited.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/LeicesterCity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/Liverpool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/ManchesterCity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/ManchesterUnited.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/Newcastle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/NottinghamForest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/Southampton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/Tottenham.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/WestHam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/build/teams/Wolves.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/positions/Defender.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/positions/Forward.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/positions/Forward.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/positions/Goalie.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/positions/Midfielder.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/positions/Midfielder.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/Arsenal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/AstonVilla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/Bournemouth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/Brentford.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/Brighton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/Chelsea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/CrystalPalace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/Everton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/Fulham.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/LeedsUnited.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/LeicesterCity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/Liverpool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/ManchesterCity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/ManchesterUnited.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/Newcastle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/NottinghamForest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/Southampton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/Tottenham.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/WestHam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/teams/Wolves.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/PL.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/sub-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/images/sub-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/AnimatedLetters/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/AnimatedLetters/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/DataHandling/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/DataHandling/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Home/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Home/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Layout/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Layout/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Nation/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Nation/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Position/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Position/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Search/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Search/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Sidebar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Sidebar/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/TeamData/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/TeamData/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Teams/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Teams/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/data/nations.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/nations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/data/positions.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/positions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/data/teams.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/teams.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -25,12 +168,19 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2jeuoDfx49i2gHy70BEnlhZ6XsL" />
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -49,6 +199,7 @@
       <updated>1721760038932</updated>
       <workItem from="1721760038940" duration="133000" />
       <workItem from="1722893378028" duration="607000" />
+      <workItem from="1723478948065" duration="8000" />
     </task>
     <servers />
   </component>

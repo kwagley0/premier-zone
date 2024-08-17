@@ -1,17 +1,17 @@
 import { useEffect } from 'react';
 import './App.scss';
 import { Route, Routes } from 'react-router-dom';
-import Layout from './components/Layout';
-import Home from './components/Home';
-import Teams from './components/Teams';
-import TeamData from './components/TeamData';
-import Nation from "./components/Nation";
-import Position from "./components/Position";
-import Search from "./components/Search";
+import Layout from './components/Layout/Layout';
+import Home from './components/Home/Home';
+import Teams from './components/Teams/Teams';
+import TeamData from './components/TeamData/TeamData';
+import Nations from './components/Nations/Nations';
+import Positions from './components/Positions/Positions';
+import Search from './components/Search/Search';
 
 function App() {
   useEffect(() => {
-    document.title = 'PremierZone Fantasy';
+    document.title = 'LaLigaZone Fantasy';
   }, []);
 
   return (
@@ -21,8 +21,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="teams" element={<Teams />} />
           <Route path="data" element={<TeamData />} />
-          <Route path="nation" element={<Nation />} />
-          <Route path="position" element={<Position />} />
+          <Route path="nations" element={<Nations />} />
+          <Route path="positions" element={<Positions />} />
           <Route path="search" element={<Search />} />
         </Route>
       </Routes>
