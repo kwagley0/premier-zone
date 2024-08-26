@@ -21,8 +21,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="teams" element={<Teams />} />
           <Route path="data" element={<TeamData />} />
-          <Route path="nation" element={<Nation />} />
-          <Route path="position" element={<Position />} />
+          <Route path="nations" element={<Nation />} />
+          <Route path="positions" element={<Position />} />
           <Route path="search" element={<Search />} />
         </Route>
       </Routes>
