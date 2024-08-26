@@ -31,7 +31,7 @@ const TeamData = () => {
     } else if (nationValue) {
       axios
         .get(
-          `https://premier-zone.onrender.com/api/v1/player?nation=${encodeURIComponent(
+          `/api/v1/player?nation=${encodeURIComponent(
             nationValue
           )}`
         )
