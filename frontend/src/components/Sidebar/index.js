@@ -21,10 +21,10 @@ const Sidebar = () => {
                 <NavLink exact="true" activeclassname = "active" className = "teams-link" to="/teams">
                     <FontAwesomeIcon icon = {faUsers} onClick={() => setShowNav(false)}/>
                 </NavLink>
-                <NavLink exact="true" activeclassname = "active" className = "nation-link" to="/nations">
+                <NavLink exact="true" activeclassname = "active" className = "nation-link" to="/nation">
                     <FontAwesomeIcon icon = {faFlag} onClick={() => setShowNav(false)} />
                 </NavLink>
-                <NavLink exact="true" activeclassname = "active" className = "position-link" to="/positions">
+                <NavLink exact="true" activeclassname = "active" className = "position-link" to="/position">
                     <FontAwesomeIcon icon = {faTshirt}  onClick={() => setShowNav(false)}/>
                 </NavLink>
                 <NavLink exact="true" activeclassname = "active" className = "search-link" to="/search">

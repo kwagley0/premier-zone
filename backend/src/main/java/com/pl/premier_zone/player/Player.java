@@ -1,48 +1,34 @@
 package com.pl.premier_zone.player;
 
 import jakarta.persistence.*;
-import com.fasterxml.jackson.annotation.JsonInclude;
 
 @Entity
-@Table(name = "player_statistics")
-@JsonInclude(JsonInclude.Include.NON_NULL)
+@Table(name = "new")
 public class Player {
     @Id
-    @Column(name = "player_name", unique = true)
+    @Column(name = "name", unique = true)
     private String name;
-    @Column(name = "nation")
     private String nation;
-    @Column(name = "position")
     private String pos;
-    @Column(name = "age")
     private Integer age;
-    @Column(name = "matches_played")
     private Integer mp;
-    @Column(name = "starts")
     private Integer starts;
-    @Column(name = "minutes_played")
     private Double min;
-    @Column(name = "goals")
     private Double gls;
-    @Column(name = "assists")
     private Double ast;
-    @Column(name = "penalties_scored")
     private Double pk;
-    @Column(name = "yellow_cards")
     private Double crdy;
-    @Column(name = "red_cards")
     private Double crdr;
-    @Column(name = "expected_goals")
     private Double xg;
-    @Column(name = "expected_assists")
     private Double xag;
-    @Column(name = "team_name")
     private String team;
 
-    public Player() {
+
+    public Player(String name) {
+        this.name = name;
     }
 
-    public Player(String name, String nation, String pos, Integer age, Integer mp, Integer starts, Double min, Double gls, Double ast, Double pk, Double crdy, Double crdr, Double xg, Double xag, String team) {
+    public Player(String name, String nation, String pos, int age, int mp, int starts, double min, double gls, double ast, double pk, double crdy, double crdr, double xg, double xag, String team) {
         this.name = name;
         this.nation = nation;
         this.pos = pos;
@@ -60,8 +46,8 @@ public class Player {
         this.team = team;
     }
 
-    public Player(String name) {
-        this.name = name;
+    public Player() {
+
     }
 
     public String getName() {
@@ -88,91 +74,91 @@ public class Player {
         this.pos = pos;
     }
 
-    public Integer getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(Integer age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
-    public Integer getMp() {
+    public int getMp() {
         return mp;
     }
 
-    public void setMp(Integer mp) {
+    public void setMp(int mp) {
         this.mp = mp;
     }
 
-    public Integer getStarts() {
+    public int getStarts() {
         return starts;
     }
 
-    public void setStarts(Integer starts) {
+    public void setStarts(int starts) {
         this.starts = starts;
     }
 
-    public Double getMin() {
+    public double getMin() {
         return min;
     }
 
-    public void setMin(Double min) {
+    public void setMin(double min) {
         this.min = min;
     }
 
-    public Double getGls() {
+    public double getGls() {
         return gls;
     }
 
-    public void setGls(Double gls) {
+    public void setGls(double gls) {
         this.gls = gls;
     }
 
-    public Double getAst() {
+    public double getAst() {
         return ast;
     }
 
-    public void setAst(Double ast) {
+    public void setAst(double ast) {
         this.ast = ast;
     }
 
-    public Double getPk() {
+    public double getPk() {
         return pk;
     }
 
-    public void setPk(Double pk) {
+    public void setPk(double pk) {
         this.pk = pk;
     }
 
-    public Double getCrdy() {
+    public double getCrdy() {
         return crdy;
     }
 
-    public void setCrdy(Double crdy) {
+    public void setCrdy(double crdy) {
         this.crdy = crdy;
     }
 
-    public Double getCrdr() {
+    public double getCrdr() {
         return crdr;
     }
 
-    public void setCrdr(Double crdr) {
+    public void setCrdr(double crdr) {
         this.crdr = crdr;
     }
 
-    public Double getXg() {
+    public double getXg() {
         return xg;
     }
 
-    public void setXg(Double xg) {
+    public void setXg(double xg) {
         this.xg = xg;
     }
 
-    public Double getXag() {
+    public double getXag() {
         return xag;
     }
 
-    public void setXag(Double xag) {
+    public void setXag(double xag) {
         this.xag = xag;
     }
 
