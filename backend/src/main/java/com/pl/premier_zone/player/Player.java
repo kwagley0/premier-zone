@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 @Entity
-@Table(name = "player_statistic")
+@Table(name = "player_statistics")
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Player {
     @Id

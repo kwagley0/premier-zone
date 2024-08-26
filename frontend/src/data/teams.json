@@ -1,84 +1,84 @@
 {
     "teams": [
         {
-            "cover": "/teams/RealMadrid.png", 
-            "title": "Real-Madrid"
+            "cover": "/teams/Arsenal.png", 
+            "title": "Arsenal"
         }, 
         {
-            "cover": "/teams/Barcelona.png", 
-            "title": "Barcelona"
+            "cover": "/teams/AstonVilla.png", 
+            "title": "Aston-Villa"
         },
         {
-            "cover": "/teams/Girona.png", 
-            "title": "Girona"
+            "cover": "/teams/Bournemouth.png", 
+            "title": "Bournemouth"
         },
         {
-            "cover": "/teams/AtleticoMadrid.png", 
-            "title": "Atletico-Madrid"
+            "cover": "/teams/Brentford.png", 
+            "title": "Brentford"
         },
         {
-            "cover": "/teams/AthleticClub.png", 
-            "title": "Athletic-Club"
+            "cover": "/teams/Brighton.png", 
+            "title": "Brighton"
         },
         {
-            "cover": "/teams/RealSociedad.png", 
-            "title": "Real-Sociedad"
+            "cover": "/teams/Chelsea.png", 
+            "title": "Chelsea"
         },
         {
-            "cover": "/teams/RealBetis.png", 
-            "title": "Real-Betis"
+            "cover": "/teams/CrystalPalace.png", 
+            "title": "Crystal-Palace"
         }, 
         {
-            "cover": "/teams/Villarreal.png", 
-            "title": "Villarreal"
+            "cover": "/teams/Everton.png", 
+            "title": "Everton"
         },
         {
-            "cover": "/teams/Valencia.png", 
-            "title": "Valencia"
+            "cover": "/teams/Fulham.png", 
+            "title": "Fulham"
         },
         {
-            "cover": "/teams/Alaves.png", 
-            "title": "Alaves"
+            "cover": "/teams/LeedsUnited.png", 
+            "title": "Leeds-United"
         },
         {
-            "cover": "/teams/Osasuna.png", 
-            "title": "Osasuna"
+            "cover": "/teams/LeicesterCity.png", 
+            "title": "Leicester-City"
         },
         {
-            "cover": "/teams/Getafe.png", 
-            "title": "Getafe"
+            "cover": "/teams/Liverpool.png", 
+            "title": "Liverpool"
         },
         {
-            "cover": "/teams/CeltaVigo.png", 
-            "title": "Celta-Vigo"
+            "cover": "/teams/ManchesterCity.png", 
+            "title": "Manchester-City"
         },
         {
-            "cover": "/teams/Sevilla.png", 
-            "title": "Sevilla"
+            "cover": "/teams/ManchesterUnited.png", 
+            "title": "Manchester-United"
         },
         {
-            "cover": "/teams/Mallorca.png", 
-            "title": "Mallorca"
+            "cover": "/teams/Newcastle.png", 
+            "title": "Newcastle"
         },
         {
-            "cover": "/teams/LasPalmas.png", 
-            "title": "Las-Palmas"
+            "cover": "/teams/NottinghamForest.png", 
+            "title": "Nottingham-Forest"
         },
         {
-            "cover": "/teams/RayoVallecano.png", 
-            "title": "Rayo-Vallecano"
+            "cover": "/teams/Southampton.png", 
+            "title": "Southampton"
         },
         {
-            "cover": "/teams/Cadiz.png", 
-            "title": "Cadiz"
+            "cover": "/teams/Tottenham.png", 
+            "title": "Tottenham"
         },
         {
-            "cover": "/teams/Almeria.png", 
-            "title": "Almeria"
+            "cover": "/teams/WestHam.png", 
+            "title": "West-Ham"
         },
         {
-            "cover": "/teams/Granada.png", 
-            "title": "Granada"
+            "cover": "/teams/Wolves.png", 
+            "title": "Wolves"
         }
     ]
 }
