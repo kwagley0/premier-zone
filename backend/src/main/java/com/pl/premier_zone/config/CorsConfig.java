@@ -13,7 +13,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins("http://localhost:3000", "https://premier-zone.vercel.app")
+                        .allowedOrigins("http://localhost:3000", "https://premier-zone.vercel.app/")
                         .allowedMethods("GET");
             }
         };

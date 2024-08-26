@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/api/v1/player",
-      "destination": "https://premier-zone.onrender.com/api/v1/player"
+      "source": "/api/(.*)",
+      "destination": "https://premier-zone.onrender.com/api/$1"
     }
   ]
 }

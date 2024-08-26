@@ -19,7 +19,11 @@ const TeamData = () => {
 
     if (teamValue) {
       axios
-        .get(`/api/v1/player?team=${encodeURIComponent(teamValue)}`)
+        .get(
+          `http://localhost:8080/api/v1/player?team=${encodeURIComponent(
+            teamValue
+          )}`
+        )
         .then((response) => {
           setPlayerData(response.data);
           setLoading(false);
@@ -27,11 +31,12 @@ const TeamData = () => {
         .catch((error) => {
           setError(error);
           setLoading(false);
+          console.error("Error: ", error);
         });
     } else if (nationValue) {
       axios
         .get(
-          `/api/v1/player?nation=${encodeURIComponent(
+          `http://localhost:8080/api/v1/player?nation=${encodeURIComponent(
             nationValue
           )}`
         )
