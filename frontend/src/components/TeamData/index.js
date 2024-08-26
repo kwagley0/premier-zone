@@ -21,7 +21,7 @@ const TeamData = () => {
     if (teamValue) {
       axios
         .get(
-          `http://localhost:8080/api/v1/player?team=${encodeURIComponent(
+          `/api/v1/player?team=${encodeURIComponent(
             teamValue
           )}`
         )
@@ -37,7 +37,7 @@ const TeamData = () => {
     } else if (nationValue) {
       axios
         .get(
-          `http://localhost:8080/api/v1/player?nation=${encodeURIComponent(
+          `/api/v1/player?nation=${encodeURIComponent(
             nationValue
           )}`
         )
@@ -51,7 +51,7 @@ const TeamData = () => {
         });
     } else if (positionValue) {
       axios
-        .get(`http://localhost:8080/api/v1/player?position=${encodeURIComponent(positionValue)}`)
+        .get(`/api/v1/player?position=${encodeURIComponent(positionValue)}`)
         .then((response) => {
           setPlayerData(response.data);
           setLoading(false);
@@ -62,7 +62,7 @@ const TeamData = () => {
         });
     } else if (nameValue) {
       axios
-        .get(`http://localhost:8080/api/v1/player?name=${encodeURIComponent(nameValue)}`)
+        .get(`/api/v1/player?name=${encodeURIComponent(nameValue)}`)
         .then((response) => {
           setPlayerData(response.data);
           setLoading(false);

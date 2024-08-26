@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://premier-zone.onrender.com/api/$1"
+    }
+  ]
+}
