@@ -30,7 +30,11 @@ const TeamData = () => {
         });
     } else if (nationValue) {
       axios
-        .get(`/api/v1/player?nation=${encodeURIComponent(nationValue)}`)
+        .get(
+          `https://premier-zone.onrender.com/api/v1/player?nation=${encodeURIComponent(
+            nationValue
+          )}`
+        )
         .then((response) => {
           setPlayerData(response.data);
           setLoading(false);
