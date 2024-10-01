@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-PremierZoneApplication<premier-zone>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.pl.premier_zone.PremierZoneApplication",
+      "projectName": "premier-zone",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
