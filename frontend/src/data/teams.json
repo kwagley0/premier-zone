@@ -18,7 +18,7 @@
         },
         {
             "cover": "/teams/Brighton.png", 
-            "title": "Brighton-and-Hove-Albion"
+            "title": "Brighton"
         },
         {
             "cover": "/teams/Chelsea.png", 
@@ -58,7 +58,7 @@
         },
         {
             "cover": "/teams/Newcastle.png", 
-            "title": "Newcastle-United"
+            "title": "Newcastle"
         },
         {
             "cover": "/teams/NottinghamForest.png", 
@@ -70,15 +70,15 @@
         },
         {
             "cover": "/teams/Tottenham.png", 
-            "title": "Tottenham-Hotspur"
+            "title": "Tottenham"
         },
         {
             "cover": "/teams/WestHam.png", 
-            "title": "West-Ham-United"
+            "title": "West-Ham"
         },
         {
             "cover": "/teams/Wolves.png", 
-            "title": "Wolverhampton-Wanderers"
+            "title": "Wolves"
         }
     ]
 }
