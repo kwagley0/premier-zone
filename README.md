@@ -2,7 +2,7 @@
 
 PremierZone is a comprehensive project designed to scrape match statistics for over 700 players, manipulate and present the data dynamically.
 
-![image](https://github.com/user-attachments/assets/648671b3-9e1e-466e-9cf0-46fa30f96ff3)
+![image](https://github.com/user-attachments/assets/1ee482b0-26fe-4723-bae9-57f87afb7514)
 
 You can find the project [here](https://premier-zone.vercel.app/)!
 
