@@ -1,0 +1,7 @@
+com/pl/premier_zone/PremierZoneApplication.class
+com/pl/premier_zone/player/PlayerRepository.class
+com/pl/premier_zone/player/PlayerController.class
+com/pl/premier_zone/player/Player.class
+com/pl/premier_zone/config/CorsConfig.class
+com/pl/premier_zone/player/PlayerService.class
+com/pl/premier_zone/config/CorsConfig$1.class
